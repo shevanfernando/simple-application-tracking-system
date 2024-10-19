@@ -1,0 +1,7 @@
+google-generativeai
+streamlit
+PyPDF2
+python-dotenv
+jinja2
+black
+python-frontmatter
