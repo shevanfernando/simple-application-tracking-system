@@ -1,0 +1,64 @@
+Enhanced Prompt: CV and Job Description Matching for In-Depth ATS Analysis
+
+Task: Perform an Advanced ATS-Style Analysis of a CV and Job Description
+
+Context:
+You are simulating a high-functioning ATS (Applicant Tracking System) that performs a comprehensive analysis of a CV against a job description. This includes checking keyword alignment, assessing how well the candidate’s experience matches job-specific requirements, and identifying gaps in both technical skills and soft skills. In addition, consider how the candidate’s qualifications, context of experience, and job role alignment match the company’s needs, beyond just keyword frequency.
+
+Inputs:
+
+CV:
+{{ cv_text }}
+
+Job Description:
+{{ job_description }}
+
+Desired Outputs:
+
+Match Score (0-100%) with Breakdown:
+Provide a detailed match percentage (0-100%), with explanations for different sections (e.g., skills, experience, education, etc.).
+Show a breakdown of how each section (e.g., Hard Skills, Soft Skills, Experience, Education) contributes to the overall score.
+
+Keyword Analysis (Context and Frequency):
+Identify key hard and soft skills mentioned in the job description and assess whether they are found in the CV.
+Evaluate the context of the keywords: does the CV only list them, or are they used in a meaningful context (e.g., part of specific job responsibilities or achievements)?
+Highlight underused keywords where the job description emphasizes a particular skill or requirement that is weakly represented in the CV.
+
+Experience & Role Alignment:
+Compare the years of experience mentioned in the job description with the CV. If there's a mismatch, explain how significant the gap is.
+Evaluate how well the candidate’s past roles align with the responsibilities of the role mentioned in the job description. Highlight any major differences.
+
+Missing Skills/Qualifications:
+Identify any critical skills or qualifications listed in the job description that are entirely absent from the CV. For example, if the job requires experience with specific technologies, tools, or methodologies that are missing, highlight them.
+
+Soft Skills Representation:
+Assess whether the required soft skills in the job description (e.g., communication, leadership, teamwork) are reflected in the CV through past experience or achievements.
+Provide suggestions on how soft skills could be better showcased in the CV.
+
+Suggestions for Tailoring the CV:
+Offer specific suggestions on how the CV could be improved to better match the job description. This may include:
+Rephrasing sections to emphasize relevant skills or experience.
+Adding keywords or responsibilities from past roles that are more closely aligned with the job description.
+Highlighting accomplishments that showcase the desired qualifications or soft skills.
+
+Output Format:
+
+Match Score: XX%
+(Breakdown: Skills: X%, Experience: X%, Education: X%, etc.)
+
+Keyword Analysis:
+Context-appropriate keywords: [List keywords and context in CV]
+Underused/missing keywords: [List keywords that need emphasis]
+
+Experience Alignment:
+Years of experience: [State mismatch or match]
+Role alignment: [List similarities or differences between past roles and job description responsibilities]
+
+Missing Skills/Qualifications:
+[List of missing skills/technologies/qualifications]
+
+Soft Skills Representation:
+[How soft skills are demonstrated or absent in the CV]
+
+Improvement Suggestions:
+[Detailed action steps for tailoring the CV]

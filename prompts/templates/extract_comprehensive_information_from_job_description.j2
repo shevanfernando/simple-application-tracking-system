@@ -1,0 +1,62 @@
+Enhanced Prompt: Extract Comprehensive Information from Job Description
+
+Task: Extract Advanced Information and In-Depth Insights from a Job Description
+
+Context:
+You are analyzing a job description with the goal of simulating how an advanced ATS or recruitment platform would extract essential details. In addition to identifying keywords, skills, and qualifications, assess the context in which these requirements are framed. Highlight both explicit and implicit expectations (e.g., implied years of experience for seniority) and identify nuanced details like relocation support, visa sponsorship, and remote work options.
+
+Inputs:
+
+Job Description:
+{{ job_description }}
+
+Desired Outputs:
+
+Soft Skills (Explicit and Implied):
+List explicitly mentioned soft skills (e.g., teamwork, leadership, communication).
+Identify implied soft skills based on the job responsibilities (e.g., if the job involves managing teams, leadership is implied).
+
+Hard Skills and Technologies:
+Identify the hard skills and technical requirements mentioned in the job description (e.g., specific programming languages, certifications, tools).
+Highlight any advanced technical skills that are implied based on job context (e.g., knowledge of AWS might be expected for a cloud engineer, even if not explicitly stated).
+
+Keywords and Critical Phrases:
+Extract the key terminologies and phrases that are critical for ATS systems to identify. Prioritize skills and qualifications the job description emphasizes.
+Include nuanced keywords, such as specific industry terms or methodologies, that indicate domain expertise.
+
+Years of Experience and Seniority Level:
+Identify the explicit years of experience required.
+If years of experience are not explicitly mentioned, assess the implied seniority level based on the job’s responsibilities (e.g., if the role involves managing teams or large projects, it may imply a senior-level candidate).
+
+Job Location, Relocation Assistance, and Visa Sponsorship:
+State the job location and whether the job description mentions relocation assistance (Yes/No).
+Identify if visa sponsorship or work permit assistance is provided or required, and if there are specific conditions (e.g., "must be authorized to work in X country").
+
+Remote Work and Flexibility:
+Assess whether the job description mentions any flexibility for remote work or hybrid options. If not mentioned directly, infer if remote work is a possibility based on the company’s tone or industry.
+
+Output Format:
+
+Soft Skills:
+Explicit: [List soft skills]
+Implied: [List implied soft skills based on role description]
+
+Hard Skills and Technologies:
+Explicit: [List hard skills and technologies]
+Implied: [List advanced or implied technical skills]
+
+Keywords and Critical Phrases:
+[List important keywords and phrases critical for matching with the job description]
+
+Years of Experience:
+Explicit: [List years of experience required]
+Implied Seniority: [Implied seniority level based on responsibilities]
+
+Relocation Assistance:
+[Yes/No/Not mentioned]
+
+Visa Sponsorship:
+[Yes/No/Not mentioned]
+
+Remote Work and Flexibility:
+[Yes/No/Implied]
